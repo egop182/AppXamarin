@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DLlA3C76WT3/Lh/uyyJXdhzDLkydn6PLBneoxHu5h8jDIqp909Q7lzHEg81LLbpMyD6EzxiiSTsuB5PJnav/SA==",
+  "success": true,
+  "projectFilePath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.iOS\\AppFromXamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eospina\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\eospina\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\eospina\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
