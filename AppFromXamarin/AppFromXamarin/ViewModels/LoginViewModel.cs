@@ -90,7 +90,7 @@ namespace AppFromXamarin.ViewModels
                 //await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
                 if (Username == "egop" && Password == "egop182")
                 {
-                    WelcomeMessage = "Inicio de sesión exitoso, " + "¡Bienvenido! " + Username + "!";
+                    WelcomeMessage = "Inicio de sesión exitoso";
                     MessageColor = Color.Black;
                     await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
                 }
