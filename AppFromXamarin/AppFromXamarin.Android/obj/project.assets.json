@@ -3415,11 +3415,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.Android\\AppFromXamarin.Android.csproj",
+      "projectUniqueName": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.Android\\AppFromXamarin.Android.csproj",
       "projectName": "AppFromXamarin.Android",
-      "projectPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.Android\\AppFromXamarin.Android.csproj",
+      "projectPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.Android\\AppFromXamarin.Android.csproj",
       "packagesPath": "C:\\Users\\eospina\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.Android\\obj\\",
+      "outputPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3442,8 +3442,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {
-              "projectPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj"
+            "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {
+              "projectPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj"
             }
           }
         }

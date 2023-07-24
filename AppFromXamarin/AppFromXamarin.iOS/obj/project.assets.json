@@ -1254,11 +1254,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.iOS\\AppFromXamarin.iOS.csproj",
+      "projectUniqueName": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.iOS\\AppFromXamarin.iOS.csproj",
       "projectName": "AppFromXamarin.iOS",
-      "projectPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.iOS\\AppFromXamarin.iOS.csproj",
+      "projectPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.iOS\\AppFromXamarin.iOS.csproj",
       "packagesPath": "C:\\Users\\eospina\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.iOS\\obj\\",
+      "outputPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1281,8 +1281,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {
-              "projectPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj"
+            "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {
+              "projectPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj"
             }
           }
         }

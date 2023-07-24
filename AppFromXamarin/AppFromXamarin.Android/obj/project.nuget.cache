@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hD9zxwaY+9grrhoV1UZxKKKO5e7V+DlBEFpreW5rM8xj/P50SLb5544SgaDNI6THkPhwEXqRc51A7/YrRQj5fA==",
+  "dgSpecHash": "9bj1b4xxrs698qGz+wEX/3e4APMGaRvfXLXGxWEHIqt6n3KbENdocEQ/BHB1nCu9QmEAC82HRysgpX8ttGZ4CQ==",
   "success": true,
-  "projectFilePath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin.Android\\AppFromXamarin.Android.csproj",
+  "projectFilePath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin.Android\\AppFromXamarin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eospina\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\eospina\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

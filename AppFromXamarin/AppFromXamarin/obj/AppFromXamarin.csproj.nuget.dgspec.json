@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {}
+    "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {}
   },
   "projects": {
-    "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {
+    "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj",
+        "projectUniqueName": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj",
         "projectName": "AppFromXamarin",
-        "projectPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj",
+        "projectPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj",
         "packagesPath": "C:\\Users\\eospina\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\obj\\",
+        "outputPath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

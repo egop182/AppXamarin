@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tL/GiaE/2cYVF2DVKMLC5ipqkORNkyifAhU9bTqqq4D9+kWEtlIUC9AiUvwcNFfXH76c4AogDIGRRDYXj92rSg==",
+  "dgSpecHash": "IFAJjhla+JIkDBXPWeiTcb4c6tkCDjL5XHwdoDaaJNxk+5l2mNVPTQBIUELscgVK8HB2rTSKX8hFbh/mrCjxOw==",
   "success": true,
-  "projectFilePath": "C:\\ProyectosGIT_EgOp\\ProyectGitExtensions\\Curso_Xamarin\\Movil\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj",
+  "projectFilePath": "C:\\ProyectosGIT_EgOp\\GitHub\\AppXamarin\\AppFromXamarin\\AppFromXamarin\\AppFromXamarin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eospina\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\eospina\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
