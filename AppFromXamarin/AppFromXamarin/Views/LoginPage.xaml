@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:AppFromXamarin.ViewModels"
+             xmlns:localImg="clr-namespace:AppFromXamarin;assembly=AppFromXamarin"
              mc:Ignorable="d"
              x:Class="AppFromXamarin.Views.LoginPage"
              Shell.NavBarIsVisible="False">
@@ -13,6 +14,7 @@
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
 
+            <Image Source="{localImg:ImageResource AppFromXamarin.Resources.Images.cs.JPG}" WidthRequest="200" HeightRequest="200"/>
             <Entry Text="{Binding Username}" Placeholder="User" Margin="10"/>
             <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True" Margin="10"/>
 
