@@ -11,10 +11,16 @@ namespace AppFromXamarin
 
         public App()
         {
+            
             InitializeComponent();
+            Startup.Initialize();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
         protected override void OnStart()
