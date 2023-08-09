@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
             "Xamarin.CommunityToolkit.Markup": {
               "target": "Package",
               "version": "[2.0.6, )"
@@ -170,6 +174,10 @@
             "Refit.Newtonsoft.Json": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
             },
             "Xamarin.CommunityToolkit.Markup": {
               "target": "Package",

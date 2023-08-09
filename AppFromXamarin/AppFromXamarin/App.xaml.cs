@@ -13,14 +13,10 @@ namespace AppFromXamarin
         {
             
             InitializeComponent();
+
             Startup.Initialize();
 
-            MainPage = new AppShell();
-        }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
+            MainPage = Startup.Resolve<AppShell>();
         }
 
         protected override void OnStart()

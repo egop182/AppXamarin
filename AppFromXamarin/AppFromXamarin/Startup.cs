@@ -1,22 +1,23 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using AppFromXamarin.Helpers.HttpMessageHandlers;
+using AppFromXamarin.Data.API;
+using AppFromXamarin;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Refit;
 using System;
 using System.Linq;
 using Xamarin.Forms.Internals;
-using AppFromXamarin.Data.API;
 
 namespace AppFromXamarin
 {
-    internal class Startup
+    public class Startup
     {
         private const string INTERFACE_PREFIX = "I";
-        private const string SERVICES_NAMESPACE = "ExampleApp.Services";
+        private const string SERVICES_NAMESPACE = "AppFromXamarin.Services";
         //private const string SINGLE_INSTANCE_SERVICES_NAMESPACE = "ExampleApp.Services.SingleInstance";
-        private const string VIEW_MODELS_NAMESPACE = "ExampleApp.ViewModels";
+        private const string VIEW_MODELS_NAMESPACE = "AppFromXamarin.ViewModels";
 
         private static IContainer _container;
 
