@@ -79,7 +79,7 @@ namespace AppFromXamarin.Resx {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a LoginPagePasswordText not found.
+        ///   Busca una cadena traducida similar a Password.
         /// </summary>
         internal static string LoginPagePasswordText {
             get {
@@ -88,7 +88,7 @@ namespace AppFromXamarin.Resx {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a LoginPageUserNameText not found.
+        ///   Busca una cadena traducida similar a UserName.
         /// </summary>
         internal static string LoginPageUserNameText {
             get {

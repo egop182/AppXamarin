@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AppFromXamarin.Services
 {
-    internal class AccountService : IAccountService
+    public class AccountService : IAccountService
     {
         private readonly IAccountApi _accountApi;
         private readonly IAppUserSettingService _appUserSettingService;

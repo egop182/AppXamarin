@@ -708,6 +708,7 @@ C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\xamarin_logo.png
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\icon_about.png
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\icon_feed.png
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\refimag.jpg
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\uploadflags.txt
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\resolvedassemblies.hash
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\android\assets\AppFromXamarin.Android.dll
@@ -1343,3 +1344,5 @@ C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\farmer.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\farmer2.jpg

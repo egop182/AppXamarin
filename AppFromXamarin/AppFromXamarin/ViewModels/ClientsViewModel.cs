@@ -32,7 +32,7 @@ namespace AppFromXamarin.ViewModels
             try
             {
                 IsBusy = true;
-                var clients = await _clientService.GetClientsAsync();
+                var clients = await _clientService.GetClients();
                 if (clients != null)
                 {
                     Clients.ReplaceRange(clients);

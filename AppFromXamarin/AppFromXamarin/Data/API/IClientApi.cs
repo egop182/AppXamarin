@@ -8,7 +8,8 @@ namespace AppFromXamarin.Data.API
     public interface IClientApi
     {
         [Get("/Clients")]
-        Task<List<Client>> GetClientsAsync();
+        //Task<List<Client>> GetClientsAsync();
+        Task<List<Client>> GetClients();
     }
 }
 

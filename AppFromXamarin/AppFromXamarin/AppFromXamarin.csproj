@@ -7,13 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\Images\cs.JPG" />
-    <None Remove="Resources\Images\duck.jpg" />
+    <None Remove="Resources\Images\compralocal.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Images\cs.JPG" />
-    <EmbeddedResource Include="Resources\Images\duck.jpg" />
+    <EmbeddedResource Include="Resources\Images\compralocal.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,5 +43,9 @@
     <EmbeddedResource Update="Views\ClientsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Productos\" />
   </ItemGroup>
 </Project>

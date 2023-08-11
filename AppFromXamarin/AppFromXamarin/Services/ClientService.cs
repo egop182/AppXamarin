@@ -16,13 +16,13 @@ namespace AppFromXamarin.Services
             _clientApi = clientApi;
         }
 
-        public async Task<List<Client>> GetClientsAsync()
+        public async Task<List<Client>> GetClients()
         {
             var clients = new List<Client>();
 
             try
             {
-                var response = await _clientApi.GetClientsAsync();
+                var response = await _clientApi.GetClients();
                 clients = response.ToList();
                 return clients;
             }

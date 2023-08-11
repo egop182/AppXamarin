@@ -7,6 +7,6 @@ namespace AppFromXamarin.Services
 {
     public interface IClientService
     {
-        Task<List<Client>> GetClientsAsync();
+        Task<List<Client>> GetClients();
     }
 }
