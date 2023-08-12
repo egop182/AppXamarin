@@ -35,8 +35,11 @@ namespace AppFromXamarin.ViewModels
             }
             else
             {
-                await Application.Current.MainPage.DisplayAlert(AppResources.LoginPageInvalidLoginTitle,
-                    AppResources.LoginPageInvalidLoginMessage, AppResources.OkText);
+                await Application.Current.MainPage.DisplayAlert(
+                        AppResources.LoginPageInvalidLoginTitle,
+                        AppResources.LoginPageInvalidLoginMessage,
+                        AppResources.OkText);
+;
             }
         }
         private bool ValidateFields()
