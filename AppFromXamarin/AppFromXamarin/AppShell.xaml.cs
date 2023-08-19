@@ -10,6 +10,7 @@ namespace AppFromXamarin
     {
         public AppShell()
         {
+            Routing.RegisterRoute(nameof(ClientPage), typeof(ClientPage));
             InitializeComponent();
         }
 

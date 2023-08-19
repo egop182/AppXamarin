@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AppFromXamarin.Data.Dto;
 
 namespace AppFromXamarin.Services
 {
@@ -32,6 +33,23 @@ namespace AppFromXamarin.Services
             }
             return clients;
         }
+
+        public async Task<ClientDetailDto> GetClient(long clientId)
+        {
+            var client = new ClientDetailDto();
+
+            try
+            {
+                client = await _clientApi.GetClient(clientId);
+                return client;
+            }
+            catch (Exception ex)
+            {
+                var error = ex.Message;
+            }
+            return client;
+        }
+
     }
 
 }

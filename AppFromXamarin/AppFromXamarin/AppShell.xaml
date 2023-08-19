@@ -81,7 +81,8 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <!--<ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />-->
+        <ShellContent Route="ProductosPage" ContentTemplate="{DataTemplate local:ProductosPage}" />
     </TabBar>
     
     <!-- 
@@ -94,6 +95,9 @@
     </FlyoutItem>
     <FlyoutItem Title="Clients" Icon="icon_feed.png">
         <ShellContent Route="ClientsPage" ContentTemplate="{DataTemplate local:ClientsPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Compra Lo Nuestro" Icon="icon_feed.png">
+        <ShellContent Route="ProductosPage" ContentTemplate="{DataTemplate local:ProductosPage}" />
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
