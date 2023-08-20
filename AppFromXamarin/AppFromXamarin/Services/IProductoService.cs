@@ -8,6 +8,6 @@ namespace AppFromXamarin.Services
     public interface IProductoService
     {
         Task<List<Producto>> GetProductos();
-        Task<Producto> GetProducto(int id);
+        Task<Producto> GetProducto(int ProductoId);
     }
 }

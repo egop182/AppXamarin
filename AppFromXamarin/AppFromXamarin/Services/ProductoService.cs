@@ -1,21 +1,19 @@
 ﻿using AppFromXamarin.Data.API;
-using AppFromXamarin.Data.Dto;
 using AppFromXamarin.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace AppFromXamarin.Services
 {
     public class ProductoService : IProductoService
     {
-        private readonly IProductoApi _ProductoApi;
+        private readonly IProductoApi _productoApi;
 
         public ProductoService(IProductoApi productoApi)
         {
-            _ProductoApi = productoApi;
+            _productoApi = productoApi;
         }
 
         public async Task<List<Producto>> GetProductos()
@@ -24,7 +22,7 @@ namespace AppFromXamarin.Services
 
             try
             {
-                var response = await _ProductoApi.GetProductos();
+                var response = await _productoApi.GetProductos();
                 Productos = response.ToList();
                 return Productos;
             }
@@ -41,7 +39,7 @@ namespace AppFromXamarin.Services
 
             try
             {
-                Producto = await _ProductoApi.GetProducto(ProductoId);
+                Producto = await _productoApi.GetProducto(ProductoId);
                 return Producto;
             }
             catch (Exception ex)

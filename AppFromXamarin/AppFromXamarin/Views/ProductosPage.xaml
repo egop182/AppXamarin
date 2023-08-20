@@ -13,7 +13,7 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <DataTemplate x:Key="DefaultProductoTemplate" x:DataType="models:Producto">
+            <DataTemplate x:Key="ProductoDefaultProductoTemplate" x:DataType="models:Producto">
                 <StackLayout Margin="0,5">
 
                     <StackLayout.GestureRecognizers>
@@ -32,10 +32,10 @@
                 </StackLayout>
             </DataTemplate>
 
-            <DataTemplate x:Key="NoProductoTemplate" x:DataType="models:Producto">
+            <DataTemplate x:Key="ProductoNoProductoTemplate" x:DataType="models:Producto">
                 <StackLayout Margin="0,5">
                     <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:ProductosViewModel}}, Path=ClientTappedCommand}"
+                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:ProductosViewModel}}, Path=ProductoTappedCommand}"
                                                           CommandParameter="{Binding .}" />
                     </StackLayout.GestureRecognizers>
                     <Frame CornerRadius="15"
@@ -51,19 +51,17 @@
 
 
             <controls:ProductoTemplateSelector x:Key="ProductoTemplateSelector"
-                                         DefaultProductoTemplate="{StaticResource DefaultProductoTemplate}"
-                                         NoProductoTemplate="{StaticResource NoProductoTemplate}"/>
+                                         DefaultProductoTemplate="{StaticResource ProductoDefaultProductoTemplate}"
+                                         NoProductoTemplate="{StaticResource ProductoNoProductoTemplate}"/>
         </ResourceDictionary>
     </ContentPage.Resources>
-
-
 
     <ContentPage.Content>
         <Grid>
             <!--Page Content-->
             <StackLayout IsVisible="{Binding IsNotBusy}" VerticalOptions="FillAndExpand">
                 <CollectionView ItemsSource="{Binding Productos}"
-                    EmptyView="No Clients to display"                 
+                    EmptyView="En el momento no hay Productos para mostrar !!!"                 
                     ItemTemplate="{StaticResource ProductoTemplateSelector}">
                     <CollectionView.Header>
                         <Grid ColumnDefinitions="*,*" Margin="0,10">
@@ -73,6 +71,10 @@
                     </CollectionView.Header>
                 </CollectionView>
             </StackLayout>
+            <!--Loading Indicator-->
+            <ActivityIndicator IsRunning="{Binding IsBusy}" VerticalOptions="Center"/>
+
         </Grid>
     </ContentPage.Content>
+    
 </ContentPage>

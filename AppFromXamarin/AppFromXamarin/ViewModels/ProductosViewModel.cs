@@ -16,12 +16,10 @@ namespace AppFromXamarin.ViewModels
         public ProductosViewModel(IProductoService productoService)
         {
             AppearingCommand = new AsyncCommand(async () => await OnAppearingAsync());
-            ProductoTappedCommand = new AsyncCommand<Producto>(OnProductoTapped); 
+            ProductoTappedCommand = new AsyncCommand<Producto>(onProductoTapped);
             Title = "Productos";
             _productoService = productoService;
         }
-
-       
         public ObservableRangeCollection<Producto> Productos { get; set; } = new ObservableRangeCollection<Producto>();
 
         public ICommand AppearingCommand { get; set; }
@@ -52,15 +50,17 @@ namespace AppFromXamarin.ViewModels
                 IsBusy = false;
             }
         }
-        private Task OnProductoTapped(Producto producto)
+
+        private Task onProductoTapped(Producto producto)
         {
             if (producto == null)
             {
                 return Task.CompletedTask;
             }
 
-            return Task.CompletedTask;
-            //return Shell.Current.GoToAsync($"{nameof(ProductoPage)}?{nameof(ProductosViewModel.Productos)}={producto.Id}");
+            //return Shell.Current.GoToAsync($"{nameof(ProductosPage)}?{nameof(ProductoViewModel.ProductoId)}={producto.Id}");
+            return Task.CompletedTask; //borrar al crear la vista para un prodcuto solo
+
         }
 
     }

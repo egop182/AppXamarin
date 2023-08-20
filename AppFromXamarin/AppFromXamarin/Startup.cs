@@ -16,7 +16,7 @@ namespace AppFromXamarin
     {
         private const string INTERFACE_PREFIX = "I";
         private const string SERVICES_NAMESPACE = "AppFromXamarin.Services";
-        //private const string SINGLE_INSTANCE_SERVICES_NAMESPACE = "ExampleApp.Services.SingleInstance";
+        //private const string SINGLE_INSTANCE_SERVICES_NAMESPACE = "AppFromXamarin.Services.SingleInstance";
         private const string VIEW_MODELS_NAMESPACE = "AppFromXamarin.ViewModels";
 
         private static IContainer _container;
