@@ -21,12 +21,12 @@
                                                           CommandParameter="{Binding .}" />
                     </StackLayout.GestureRecognizers>
 
-                    <Frame CornerRadius="15"
-                       BackgroundColor="AliceBlue">
+                    <Frame CornerRadius="25"
+                       BackgroundColor="#a3f0b7">
                         <Grid ColumnDefinitions="*,*">
                             <Label Text="{Binding Nombre}" TextColor="Black" />
                             <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"/>
-                            <Button Text="Comprar" BackgroundColor="Gray" TextColor="Black" IsEnabled="True"/>
+                            <!--<Button Text="Comprar" BackgroundColor="Gray" TextColor="Black" IsEnabled="True"/>-->
                         </Grid>
                     </Frame>
                 </StackLayout>
@@ -38,12 +38,12 @@
                         <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:ProductosViewModel}}, Path=ProductoTappedCommand}"
                                                           CommandParameter="{Binding .}" />
                     </StackLayout.GestureRecognizers>
-                    <Frame CornerRadius="15"
+                    <Frame CornerRadius="25"
                        BackgroundColor="#0f754b">
                         <Grid ColumnDefinitions="*,*">
                             <Label Text="{Binding Nombre}" TextColor="Black" />
                             <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"/>
-                            <Button Text="Comprar" BackgroundColor="White" TextColor="Black" IsEnabled="False"/>
+                            <!--<Button Text="Comprar" BackgroundColor="White" TextColor="Black" IsEnabled="False"/>-->
                         </Grid>
                     </Frame>
                 </StackLayout>
@@ -55,21 +55,28 @@
                                          NoProductoTemplate="{StaticResource ProductoNoProductoTemplate}"/>
         </ResourceDictionary>
     </ContentPage.Resources>
+    <ContentPage.Behaviors>
+        <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
+    </ContentPage.Behaviors>
 
     <ContentPage.Content>
         <Grid>
             <!--Page Content-->
             <StackLayout IsVisible="{Binding IsNotBusy}" VerticalOptions="FillAndExpand">
+                <Frame CornerRadius="25"
+                        BackgroundColor="#c9d1cb">
                 <CollectionView ItemsSource="{Binding Productos}"
                     EmptyView="En el momento no hay Productos para mostrar !!!"                 
                     ItemTemplate="{StaticResource ProductoTemplateSelector}">
-                    <CollectionView.Header>
-                        <Grid ColumnDefinitions="*,*" Margin="0,10">
-                            <Label Text="Nombre Producto" TextColor="Black"/>
-                            <Label Grid.Column="1" Text="Precio($)" TextColor="Black"/>
-                        </Grid>
-                    </CollectionView.Header>
+                        <CollectionView.Header>
+                            <Grid ColumnDefinitions="*,*" Margin="0,10">
+                                <Label Text="Nombre Producto" TextColor="Black"/>
+                                <Label Grid.Column="1" Text="Precio($)" TextColor="Black"/>
+                                <!--<Label Grid.Column="2" TextColor="Black"/>-->
+                            </Grid>
+                        </CollectionView.Header>
                 </CollectionView>
+                </Frame>
             </StackLayout>
             <!--Loading Indicator-->
             <ActivityIndicator IsRunning="{Binding IsBusy}" VerticalOptions="Center"/>
