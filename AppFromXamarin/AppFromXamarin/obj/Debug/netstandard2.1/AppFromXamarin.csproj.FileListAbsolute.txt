@@ -21,3 +21,4 @@ C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\n
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppFromXamarin.dll
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\refint\AppFromXamarin.dll
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppFromXamarin.pdb
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\ProductoPage.xaml.g.cs

@@ -58,8 +58,8 @@ namespace AppFromXamarin.ViewModels
                 return Task.CompletedTask;
             }
 
-            //return Shell.Current.GoToAsync($"{nameof(ProductosPage)}?{nameof(ProductoViewModel.ProductoId)}={producto.Id}");
-            return Task.CompletedTask; //borrar al crear la vista para un prodcuto solo
+            return Shell.Current.GoToAsync($"{nameof(ProductoPage)}?{nameof(ProductoViewModel.ProductoId)}={producto.Id}");
+            
 
         }
 

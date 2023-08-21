@@ -33,7 +33,7 @@ namespace AppFromXamarin.Services
             return Productos;
         }
 
-        public async Task<Producto> GetProducto(int ProductoId)
+        public async Task<Producto> GetProducto(long ProductoId)
         {
             var Producto = new Producto();
 

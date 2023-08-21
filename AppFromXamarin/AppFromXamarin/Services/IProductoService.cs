@@ -11,6 +11,6 @@ namespace AppFromXamarin.Services
     {
         Task<List<Producto>> GetProductos();
 
-        Task<Producto> GetProducto(int ProductoId);
+        Task<Producto> GetProducto(long ProductoId);
     }
 }
