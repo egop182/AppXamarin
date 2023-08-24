@@ -28,7 +28,6 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
-
             <ResourceDictionary.MergedDictionaries>
                 <styles:Styles />
             </ResourceDictionary.MergedDictionaries>

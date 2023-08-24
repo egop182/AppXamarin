@@ -61,6 +61,15 @@ namespace AppFromXamarin.Resx {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Existencias del Producto.
+        /// </summary>
+        internal static string ExistenciasProducto {
+            get {
+                return ResourceManager.GetString("ExistenciasProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a We are unable to login this time, please check the user/pass.
         /// </summary>
         internal static string LoginPageInvalidLoginMessage {
@@ -97,11 +106,38 @@ namespace AppFromXamarin.Resx {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Nombre del Producto.
+        /// </summary>
+        internal static string NombreProducto {
+            get {
+                return ResourceManager.GetString("NombreProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Ok.
         /// </summary>
         internal static string OkText {
             get {
                 return ResourceManager.GetString("OkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Peso del Producto.
+        /// </summary>
+        internal static string PesoProducto {
+            get {
+                return ResourceManager.GetString("PesoProducto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Valor del Producto.
+        /// </summary>
+        internal static string ValorProducto {
+            get {
+                return ResourceManager.GetString("ValorProducto", resourceCulture);
             }
         }
     }

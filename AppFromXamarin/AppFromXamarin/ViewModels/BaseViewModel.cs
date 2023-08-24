@@ -1,5 +1,6 @@
 ﻿using AppFromXamarin.Models;
 using AppFromXamarin.Services;
+using Refit;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,5 +43,16 @@ namespace AppFromXamarin.ViewModels
             get { return title; }
             set { SetProperty(ref title, value); }
         }
+
+        public void SetValue<T>(ref T backinField, T Value, [CallerMemberName] string propertyName = null)
+        {
+            if(EqualityComparer<T>.Default.Equals(backinField, Value))
+            {
+                return;
+            }
+            backinField = Value;
+            OnPropertyChanged(propertyName);
+        }
+
     }
 }

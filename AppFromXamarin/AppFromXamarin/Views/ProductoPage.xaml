@@ -16,25 +16,26 @@
     <ContentPage.Content>
         <StackLayout Padding="20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 
-            <!--<Image Source="{localImg:ImageResource AppFromXamarin.Resources.Productos.{Binding Productos.Imagen}.jpg}" WidthRequest="300" HeightRequest="300" />-->
-            <Image Source="{localImg:ImageResource AppFromXamarin.Resources.Images.compralocal.jpg}" WidthRequest="250" HeightRequest="250" />
+            <!--<Image Source="{localImg:ImageResource AppFromXamarin.Resources.Images.{Binding Producto.Imagen}}" WidthRequest="300" HeightRequest="300" />-->
+            <Image Source="{localImg:ImageResource AppFromXamarin.Resources.Images.cafe.jpg}" WidthRequest="250" HeightRequest="250" />
 
 
             <Grid ColumnDefinitions="*,*"
                   RowDefinitions="Auto,Auto,Auto,Auto,Auto">
-                <Label Grid.Column="0" Grid.Row="0" Text="Nombre Producto:" />
+                <Label Grid.Column="0" Grid.Row="0" Text="Nombre Producto:" FontAttributes="Bold"/>
                 <Label Grid.Column="1" Grid.Row="0" Text="{Binding Producto.Nombre}" />
 
-                <Label Grid.Column="0" Grid.Row="1" Text="Valor:" />
+                <Label Grid.Column="0" Grid.Row="1" Text="Valor:" FontAttributes="Bold"/>
                 <Label Grid.Column="1" Grid.Row="1" Text="{Binding Producto.Precio}" />
 
-                <Label Grid.Column="0" Grid.Row="2" Text="Peso:" />
+                <Label Grid.Column="0" Grid.Row="2" Text="Peso:" FontAttributes="Bold"/>
                 <Label Grid.Column="1" Grid.Row="2" Text="{Binding Producto.Peso}" />
 
-                <Label Grid.Column="0" Grid.Row="3" Text="Existencias Actuales:" />
+                <Label Grid.Column="0" Grid.Row="3" Text="Existencias Actuales:" FontAttributes="Bold"/>
                 <Label Grid.Column="1" Grid.Row="3" Text="{Binding Producto.Cantidad}" />
             </Grid>
-            <Button Text="Comprar" BackgroundColor="Gray" TextColor="Black" IsEnabled="True"/>
+            <!--<Button VerticalOptions="Center" Text="Comprar" Command="{Binding BuyCommand}" IsEnabled="{Binding EstadoBoton}"/>-->
+            <Button VerticalOptions="Center" Text="Comprar" Command="{Binding BuyCommand}" IsEnabled="True"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

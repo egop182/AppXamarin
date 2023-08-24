@@ -10,9 +10,11 @@ C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\n
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppShell.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Resources\Styles\Styles.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\AboutPage.xaml.g.cs
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\AgregaProductos.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\ClientPage.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\ClientsPage.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\LoginPage.xaml.g.cs
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\ProductoPage.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\ProductosPage.xaml.g.cs
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppFromXamarin.AssemblyInfoInputs.cache
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppFromXamarin.AssemblyInfo.cs
@@ -21,4 +23,3 @@ C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\n
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppFromXamarin.dll
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\refint\AppFromXamarin.dll
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\AppFromXamarin.pdb
-C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin\obj\Debug\netstandard2.1\Views\ProductoPage.xaml.g.cs

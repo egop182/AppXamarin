@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:AppFromXamarin.ViewModels"
+             xmlns:resx="clr-namespace:AppFromXamarin.Resx" 
+             x:DataType="viewModels:AgregaProductosViewModel"
+             x:Class="AppFromXamarin.Views.AgregaProductos"
+             xmlns:localImg="clr-namespace:AppFromXamarin;assembly=AppFromXamarin">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre Producto" FontAttributes ="Bold"/>
+            <Entry Text="" Placeholder="{Static resx:AppResources.NombreProducto}" TextColor="Black" />
+            
+            <Label Text="Valor" FontAttributes ="Bold"/>
+            <Entry Text="" Placeholder="{Static resx:AppResources.ValorProducto}" TextColor="Black" />
+
+            <Label Text="Peso Producto" FontAttributes ="Bold"/>
+            <Entry Text="" Placeholder="{Static resx:AppResources.PesoProducto}" TextColor="Black" />
+
+            <Label Text="Existencias de Producto" FontAttributes ="Bold"/>
+            <Entry Text="" Placeholder="{Static resx:AppResources.ExistenciasProducto}" TextColor="Black" />
+
+            <Label Text="Seleccione Iamgen del Producto" FontAttributes ="Bold"/>
+            <Image 
+                   Source="{localImg:ImageResource AppFromXamarin.Resources.Images.buscar.png}">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding AgregarImagenCommand}"/>
+                    <TapGestureRecognizer Tapped="AgregarImagen"/>
+                </Image.GestureRecognizers>
+            </Image>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

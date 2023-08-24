@@ -19,4 +19,10 @@
         <Setter Property="FontSize" Value="18" />
     </Style>
 
+    <Style TargetType="ContentPage"
+               ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor"
+                    Value="#f1f50a" />
+    </Style>
+
 </ResourceDictionary>

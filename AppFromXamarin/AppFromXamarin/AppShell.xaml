@@ -93,10 +93,10 @@
     <FlyoutItem Title="About" Icon="icon_about.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="Clients" Icon="icon_feed.png">
-        <ShellContent Route="ClientsPage" ContentTemplate="{DataTemplate local:ClientsPage}" />
+    <FlyoutItem Title="Agregar Producto" Icon="ingresa_producto.png">
+        <ShellContent Route="AddProductos" ContentTemplate="{DataTemplate local:AgregaProductos}" />
     </FlyoutItem>
-    <FlyoutItem Title="CompraLoNuestro" Icon="icon_feed.png">
+    <FlyoutItem Title="Compra Lo Nuestro" Icon="productos.png">
         <ShellContent Route="ProductosPage" ContentTemplate="{DataTemplate local:ProductosPage}" />
     </FlyoutItem>
 
