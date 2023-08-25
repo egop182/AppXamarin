@@ -22,7 +22,7 @@
     <Style TargetType="ContentPage"
                ApplyToDerivedTypes="True">
         <Setter Property="BackgroundColor"
-                    Value="#f1f50a" />
+                    Value="White" />
     </Style>
 
 </ResourceDictionary>

@@ -5,7 +5,8 @@
              xmlns:resx="clr-namespace:AppFromXamarin.Resx" 
              x:DataType="viewModels:AgregaProductosViewModel"
              x:Class="AppFromXamarin.Views.AgregaProductos"
-             xmlns:localImg="clr-namespace:AppFromXamarin;assembly=AppFromXamarin">
+             xmlns:localImg="clr-namespace:AppFromXamarin;assembly=AppFromXamarin"
+             Title="Registro de Producto">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Nombre Producto" FontAttributes ="Bold"/>

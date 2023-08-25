@@ -9,6 +9,7 @@
             x:DataType="viewModels:ProductosViewModel"
             xmlns:xct="http://xamarin.com/schemas/2020/toolkit" 
              x:Class="AppFromXamarin.Views.ProductosPage"
+             Title= "Lista de Productos"
              Padding="10">
 
     <ContentPage.Resources>
@@ -22,7 +23,7 @@
                     </StackLayout.GestureRecognizers>
 
                     <Frame CornerRadius="25"
-                       BackgroundColor="{StaticResource Primary}">
+                       BackgroundColor="#1dc8f2">
                         <Grid ColumnDefinitions="*,*">
                             <Label Text="{Binding Nombre}" TextColor="Black" FontAttributes="Bold" />
                             <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"  FontAttributes="Bold"/>
@@ -62,14 +63,14 @@
             <!--Page Content-->
             <StackLayout IsVisible="{Binding IsNotBusy}" VerticalOptions="FillAndExpand">
                 <Frame CornerRadius="25"
-                        BackgroundColor="#f1f50a">
+                        BackgroundColor="white">
                 <CollectionView ItemsSource="{Binding Productos}"
                     EmptyView="En el momento no hay Productos para mostrar !!!"                 
                     ItemTemplate="{StaticResource ProductoTemplateSelector}">
                         <CollectionView.Header>
                             <Grid ColumnDefinitions="*,*" Margin="0,10">
-                                <Label Text="Nombre Producto" TextColor="Black" FontSize="Medium"/>
-                                <Label Grid.Column="1" Text="Precio($)" TextColor="Black" FontSize="Medium"/>
+                                <Label Text="Nombre Producto" TextColor="Black" FontSize="Medium" FontAttributes ="Bold"/>
+                                <Label Grid.Column="1" Text="Precio($)" TextColor="Black" FontSize="Medium" FontAttributes ="Bold"/>
                                 <!--<Label Grid.Column="2" TextColor="Black"/>-->
                             </Grid>
                         </CollectionView.Header>

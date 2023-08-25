@@ -38,6 +38,10 @@ namespace AppFromXamarin.Views
             {
                 return;
             }
+            else
+            {
+                await DisplayAlert("info Camara", "La foto se tomo Correctamente", "ok");
+            }
 
 
             

@@ -1381,3 +1381,11 @@ C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\propoleo.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\tortanaranja.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\aji.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\cafe.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\miel.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\pan.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\panela.jpg
+C:\ProyectosGIT_EgOp\GitHub\AppXamarin\AppFromXamarin\AppFromXamarin.Android\obj\Debug\130\res\drawable\polen.jpg
