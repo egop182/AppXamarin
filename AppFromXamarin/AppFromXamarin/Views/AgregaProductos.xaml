@@ -8,7 +8,7 @@
              xmlns:localImg="clr-namespace:AppFromXamarin;assembly=AppFromXamarin"
              Title="Registro de Producto">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="0,5" Padding="20">
             <Label Text="Nombre Producto" FontAttributes ="Bold"/>
             <Entry Text="" Placeholder="{Static resx:AppResources.NombreProducto}" TextColor="Black" />
             

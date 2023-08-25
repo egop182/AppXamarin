@@ -16,10 +16,11 @@
     <ContentPage.Content>
         <StackLayout Padding="20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 
+            <Frame CornerRadius="140" BackgroundColor="#ced0d6">
             <!--<Image Source="{localImg:ImageResource AppFromXamarin.Resources.Images.{Binding Producto.Imagen}}" WidthRequest="300" HeightRequest="300" />-->
             <!--<Image Source="{localImg:ImageResource AppFromXamarin.Resources.Images.cafe.jpg}" WidthRequest="250" HeightRequest="250" />-->
             <Image Source="{Binding Producto.Imagen}" WidthRequest="250" HeightRequest="250" />
-
+            </Frame>
 
             <Grid ColumnDefinitions="*,*"
                   RowDefinitions="Auto,Auto,Auto,Auto,Auto">
@@ -37,6 +38,7 @@
             </Grid>
             <!--<Button VerticalOptions="Center" Text="Comprar" Command="{Binding BuyCommand}" IsEnabled="{Binding EstadoBoton}"/>-->
             <Button VerticalOptions="Center" Text="Comprar" Command="{Binding BuyCommand}" IsEnabled="True"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

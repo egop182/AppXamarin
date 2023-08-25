@@ -25,8 +25,9 @@
                     <Frame CornerRadius="25"
                        BackgroundColor="#1dc8f2">
                         <Grid ColumnDefinitions="*,*">
-                            <Label Text="{Binding Nombre}" TextColor="Black" FontAttributes="Bold" />
-                            <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"  FontAttributes="Bold"/>
+                            <Label Text="{Binding Nombre}" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Fill"/>
+                            <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"  FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center"/>
+                            <!--<Image BackgroundColor="#E3E3E3" WidthRequest="24" Source="{Binding Imagen}" VerticalOptions="Center" HorizontalOptions="Start"/>-->
                         </Grid>
                     </Frame>
                 </StackLayout>
@@ -41,8 +42,8 @@
                     <Frame CornerRadius="25"
                        BackgroundColor="Red">
                         <Grid ColumnDefinitions="*,*">
-                            <Label Text="{Binding Nombre}" TextColor="Black"  FontAttributes="Bold"/>
-                            <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"  FontAttributes="Bold"/>
+                            <Label Text="{Binding Nombre}" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Fill"/>
+                            <Label Grid.Column="1" Text="{Binding Precio}" TextColor="Black"  FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center"/>
                         </Grid>
                     </Frame>
                 </StackLayout>
